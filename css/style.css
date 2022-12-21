@@ -12,13 +12,11 @@ body {
   font-size: 15px;
   font-family: "Lexend Deca", sans-serif;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-main {
-  margin: 20px;
-}
 main > section {
   display: flex;
   width: 900px;
@@ -71,6 +69,18 @@ main > section > .green {
 }
 main > section > .green > button {
   color: #00403f;
+}
+
+footer {
+  margin: 10px 0;
+  text-align: center;
+  color: #e28525;
+}
+footer > a {
+  text-decoration: none;
+  color: #016972;
+  font-weight: 500;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 980px) {
